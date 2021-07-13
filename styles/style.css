@@ -99,3 +99,85 @@ ul{
 .section-img{
     margin-top: -100px;
 }
+.title{
+    margin: 100px;
+    text-align: center;
+    font: normal normal normal 60px/88px DIN Next LT W23;
+    letter-spacing: 0px;
+    color: #8E9395;
+}
+.rectangle-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 753px;
+    height: 712px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 80px #00000029;
+    border-radius: 134px;
+    opacity: 1;
+    z-index: 1;
+}
+.rectangle-03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 583px;
+    height: 596px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 80px #00000029;
+    border-radius: 134px;
+    opacity: 1;
+}
+.container-01{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.mr-100{
+    margin-right: -150px;
+}
+.ml-100{
+    margin-left: -150px;
+}
+#ic {
+    position: relative;
+    /* width: 200px; */
+    /* height: 200px; */
+    z-index: 2;
+    top: 68px;
+    left: -129px;
+}
+#andr_logo {
+    position: relative;
+    /* top: -280px; */
+    left: 148px;
+    z-index: 1;
+}
+#folder-img{
+    position: relative;
+}
+
+#img-03{
+    position: relative;
+    top: -225px;
+    left: 130px;
+    z-index: 1;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
